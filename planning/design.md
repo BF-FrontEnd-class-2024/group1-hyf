@@ -14,7 +14,5 @@ and image of an educational institution in the field of information technology.
 
 ## Wireframe(s)
 
-![main](./public/img/main.png)
-![about](/public/img/about.png)
-![recruit](/public/img/recruit.png)
-![volunteer](/public/img/volunteer.png)
+![main](/public/img/main.png) ![about](/public/img/about.png)
+![recruit](/public/img/recruit.png) ![volunteer](/public/img/volunteer.png)
