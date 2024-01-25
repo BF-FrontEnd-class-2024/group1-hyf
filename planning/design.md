@@ -2,16 +2,19 @@
 
 ## Project's design overview
 
-> Give an overview of your project's design
+The color scheme aims to create a visually appealing, professional, and dynamic
+identity for your IT school. The chosen colors not only have aesthetic appeal
+but also convey specific psychological associations that align with the goals
+and image of an educational institution in the field of information technology.
 
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
-
----
+- Main: #9BB8CD;
+- Background: #FDF9F5;
+- Background for the elements: #F8EBDD;
+- Elements: #CC3600; Text: #083F72;
 
 ## Wireframe(s)
 
-> Include your wireframe(s) and link to wireframe
-
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+![main](./public/img/main.png)
+![about](/public/img/about.png)
+![recruit](/public/img/recruit.png)
+![volunteer](/public/img/volunteer.png)
