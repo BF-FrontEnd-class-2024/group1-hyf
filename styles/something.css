@@ -1,11 +1,130 @@
 /* Global styles */
-
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+}
+
+.image-with-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.image-with-text img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.image-text {
+  font-size: 18px;
+  color: #333;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.banner h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.large-number {
+  font-size: 80px;
+  text-align: center;
+  color: #15;
+}
+
+.custom-paragraph {
+  font-size: 14px;
+  line-height: 1.8em;
+  text-align: center;
+  color: #000;
+}
+
+.section-title {
+  letter-spacing: normal;
+  font-size: 56px;
+  text-align: center;
+}
+
+.logo {
+    max-width: 100%;
+    flex-grow: 1;
+  }
+
+
+.banner img {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 15px;
+}
+
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  background-color: white; /* Set your desired background color */
+}
+
+
+
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+=======
   background-color: #fdf9f5;
   color: #083f72;
   font-size: 18px;
