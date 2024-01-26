@@ -18,7 +18,9 @@
     "Rohma",
     "Ramya",
     "Adil",
-    "Daria"
+    "Daria",
+    "descr",
+    "Tervueren"
   ],
   "ignorePaths": [
     "node_modules/**",
