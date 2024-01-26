@@ -23,7 +23,8 @@
     "Lizhen",
     "Cartella",
     "Meirlaen",
-    "Daria"
+    "Daria",
+    "linckedin"
   ],
   "ignorePaths": [
     "node_modules/**",
