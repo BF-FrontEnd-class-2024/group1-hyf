@@ -12,7 +12,7 @@ html {
 
 /* Body styles */
 body {
-  font-family: "Arial", sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #9bb8cd;
   color: #083f72;
 }
@@ -39,16 +39,12 @@ header {
   position: relative;
   height: 100vh;
   overflow: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("photographer.jpg");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
   text-align: center;
   padding: 150px 0;
   background-color: #9bb8cd;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 
 .overlay-title {
@@ -60,35 +56,36 @@ header {
   text-align: center;
   font-size: 4em;
   margin: 0;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 3px;
   font-weight: bold;
-  font-family: "Arial", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
   letter-spacing: 1px;
 }
 
 /* Additional styles for the image within the banner */
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .banner-image img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-body {
+.body {
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .image-container {
   position: relative;
   height: 100vh;
   overflow: hidden;
-}
-
-img {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 
 /* Achievements Section */
@@ -116,11 +113,9 @@ img {
 /* Features Section */
 .main-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px 20px;
-  flex-direction: row;
+  padding: 0 100px 100px;
 }
 
 .container {
@@ -129,13 +124,12 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 10px rgba(242, 239, 239, 0.3);
   border-radius: 8px;
   margin: 10px;
   text-align: center;
   font-size: 30px;
   width: 30%;
-  height: auto;
+  height: 750px;
 }
 
 .features-text {
@@ -143,8 +137,6 @@ img {
   margin: 60px 0;
   font-size: 80px;
 }
-
-
 
 /* Footer styles */
 .footer-container {
@@ -181,9 +173,4 @@ img {
   display: flex;
   flex-direction: row;
   gap: 20px;
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
-  /* Add responsive styles here if needed */
 }
