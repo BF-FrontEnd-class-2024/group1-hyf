@@ -1,10 +1,10 @@
-# Name of project
+# Hack Your Future Rebuild
 
-> A longer description
+> Rebuild website Hack Your Future. Practice Agile development, HTML and CSS.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Hack Your Future Rebuild](#hack-your-future-rebuild)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
