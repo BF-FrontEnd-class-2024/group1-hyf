@@ -24,7 +24,9 @@
     "Cartella",
     "Meirlaen",
     "Daria",
-    "linckedin"
+    "linckedin",
+    "descr",
+    "Tervueren"
   ],
   "ignorePaths": [
     "node_modules/**",
