@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  background-color: #fdf9f5;
+  color: #083f72;
+}
+
+/** navbar **/
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding-right: 120px;
+  font-size: 13px;
+}
+
+.nav-logo {
+  height: 80px;
+  width: 80px;
+  padding-left: 130px;
+  padding-right: 300px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+/** image **/
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.office-img {
+  padding: 30px 10px;
+  width: 1400px;
+  height: 400px;
+}
+
+.image-title {
+  position: absolute;
+  font-size: 75px;
+  color: #083f72;
+}
+
+/** intro **/
+
+.intro {
+  font-size: 22px;
+  color: #083f72;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-button {
+  background-color: #f8ebdd;
+  color: #083f72;
+  font-size: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/** graduate **/
+
+h3 {
+  font-size: 42px;
+  color: #083f72;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/** graduate profile **/
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+/** hiring option 1 **/
+
+.box-1,
+.box-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 45px;
+}
+
+.content-box-1 {
+  background-color: #f8ebdd;
+  height: 350px;
+  width: 1160px;
+  padding: 35px;
+  margin-bottom: 35px;
+}
+
+.text-box-1,
+.title-box-1,
+.p-box-1 {
+  font-size: 18px;
+  padding: 35px;
+  padding-bottom: 35px;
+}
+
+.title-box-1,
+.companies {
+  display: inline;
+  justify-content: space-between;
+}
+
+.companies {
+  float: inline-end;
+  font-size: 18px;
+  padding-right: 35px;
+}
+
+/** logos 1 **/
+
+.capgemini,
+.decathlon {
+  float: inline-end;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.kps,
+.cgroup,
+.atlas {
+  float: inline-end;
+  position: relative;
+  top: -130px;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+/** hiring option 2 **/
+
+.box-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 45px;
+}
+
+.content-box-2 {
+  background-color: #f8ebdd;
+  height: 350px;
+  width: 1160px;
+  padding: 35px;
+  margin-bottom: 35px;
+}
+
+.text-box-2,
+.title-box-2,
+.p-box-2,
+.weeks {
+  font-size: 18px;
+  padding-left: 35px;
+}
+
+.weeks {
+  font-size: 18px;
+  padding-right: 35px;
+}
+
+/** logo 2 **/
+
+.computer {
+  float: inline-end;
+  position: relative;
+  top: -100px;
+  justify-content: space-between;
+  margin-right: 200px;
+}
+
+.more-info {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+/** link boxes **/
+
+.container {
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.box {
+  flex: 1;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin: 20px;
+  width: 700px;
+  height: 300px;
+  text-align: center;
+  background-color: #f8ebdd;
+  color: #083f72;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-top: 70px;
+  font-size: 18px;
+}
+
+.p-box {
+  font-size: 15px;
+}
+
+/** footer **/
+
+.street,
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+/** social media **/
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.platform {
+  margin-right: 15px;
+}
